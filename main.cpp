@@ -1,4 +1,5 @@
 #include <QCoreApplication>
+#include <QString>
 class A
 {
 
@@ -18,6 +19,7 @@ class Steck
 
 public:
     int X;
+    QString Str;
 };
 
 int main(int argc, char *argv[])
